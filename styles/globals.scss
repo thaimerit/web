@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./variables.module";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap');
+
+:root {
+  --primary: #F68C29
+  --danger: #b91c1c
+}
+
+html,
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: white;
+}
+
+.container {
+  padding: 0 6%;
+}
+
+.detail {
+  .title {
+    font-size: 1.4rem;
+    color: $primary-color;
+    margin-top: 20px;
+
+
+    @media (min-width: $screen-lg) {
+      font-size: 1.6vw;
+    }
+
+  }
+  .detail {
+    font-size: 1rem;
+    margin-top: 10px;
+
+
+    @media (min-width: $screen-lg) {
+      font-size: 1.2vw;
+    }
+
+  }
+}
+
+.swal2-title {
+  font-size: 1.3em !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.swal2-actions{
+  width: 90%  !important;
+}
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-deny, .swal2-styled.swal2-cancel {
+  border-radius: 2em !important;
+  width: 100%  !important;
+}
+
+.linear-bg{
+  background: linear-gradient(#F68C29, #E51E54);
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.text-black{
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
+.bg-white {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+.bg-danger {
+  background-color: $danger-color;
+}
+
+
+.swiper-in-detail-page {
+  height: 53vw !important;
+
+  @media (min-width: $screen-md) {
+      height: 35vw !important;
+  }
+
+  @media (min-width: $screen-lg) {
+      height: 35vw !important;
+  }
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #F68C29 !important;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+  background: #F68C29 !important;
+}
+
+
+.swiper-button-prev {
+  margin-left: 20px !important;
+}
+
+.swiper-button-next {
+  margin-right: 20px;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+  margin-bottom: 20px !important;
+}

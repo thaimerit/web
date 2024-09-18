@@ -1,0 +1,46 @@
+@import "../variables.module.scss";
+
+.logo{
+    width: 200px;
+    margin: auto;
+
+    @media (min-width: $screen-sm) {
+        width: 30vw;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 15vw;
+    }
+}
+.loginBoxWrapper{
+    min-height: 80vh;
+
+    @media (min-width: $screen-sm) {
+        min-height: 400px;
+    }
+}
+.loginBox{
+    width: 100%;
+    
+    @media (min-width: $screen-sm) {
+        // width: 50vw;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 60vw;
+    }
+
+    @media (min-width: $screen-lg) {
+        width: 600px;
+    }
+
+    // @media (min-width: $screen-xl) {
+    //     width: 200px;
+    // }
+    
+}
+
+.otp{
+    width: 50px;
+    text-align: center;
+}

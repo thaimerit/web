@@ -1,0 +1,151 @@
+@import "../variables.module.scss";
+
+.image {
+    height: 52.8vw;
+    object-fit: cover;
+    width: 100%;
+    background-color: #ccc;
+
+    @media (min-width: $screen-md) {
+        height: 16.94vw;
+    }
+}
+
+.cardSubTitleLoading{
+    background-color: #ccc;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.cardTitleLoading{
+    background-color: #ccc;
+    height: 22px;
+}
+
+.cardSubTitle {
+    font-size: 12px;
+
+    @media (min-width: $screen-sm) {
+        // font-size: 12px;
+        font-size: 2vw;
+    }
+    @media (min-width: $screen-md) {
+        // font-size: 12px;
+        font-size: 1.5vw;
+    }
+    @media (min-width: $screen-lg) {
+        // font-size: 12px;
+        font-size: 1.3vw;
+    }
+    @media (min-width: $screen-xl) {
+        // font-size: 12px;
+        font-size: 1vw;
+    }
+    @media (min-width: $screen-2xl) {
+        // font-size: 12px;
+        font-size: 1vw;
+    }
+    @media (min-width: $screen-3xl) {
+        // font-size: 12px;
+        font-size: 0.8vw;
+    }
+}
+
+.cardTitle {
+    font-size: 14px;
+    white-space: normal;
+
+    line-height: 1.5em;
+    // height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+
+    // white-space: normal;
+
+    @media (min-width: $screen-sm) {
+        // font-size: 12px;
+        font-size: 2.2vw;
+    }
+    @media (min-width: $screen-md) {
+        // font-size: 12px;
+        font-size: 1.6vw;
+    }
+    @media (min-width: $screen-lg) {
+        // font-size: 12px;
+        font-size: 1.35vw;
+    }
+    @media (min-width: $screen-xl) {
+        // font-size: 12px;
+        font-size: 1.25vw;
+    }
+    @media (min-width: $screen-2xl) {
+        // font-size: 12px;
+        font-size: 1.05vw;
+    }
+    @media (min-width: $screen-3xl) {
+        // font-size: 12px;
+        font-size: 0.95vw;
+    }
+}
+
+.cardTitle2 {
+    color: #4D4D4D;
+    font-size: 12px;
+    white-space: normal;
+    font-weight: 500;
+
+    @media (min-width: $screen-sm) {
+        // font-size: 12px;
+        font-size: 2.2vw;
+    }
+    @media (min-width: $screen-md) {
+        // font-size: 12px;
+        font-size: 1.6vw;
+    }
+    @media (min-width: $screen-lg) {
+        // font-size: 12px;
+        font-size: 1.35vw;
+    }
+    @media (min-width: $screen-xl) {
+        // font-size: 12px;
+        font-size: 1.25vw;
+    }
+    @media (min-width: $screen-2xl) {
+        // font-size: 12px;
+        font-size: 1.05vw;
+    }
+    @media (min-width: $screen-3xl) {
+        // font-size: 12px;
+        font-size: 0.95vw;
+    }
+}
+
+.thumbnailImageOrderCart{
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+
+    @media (min-width: $screen-sm) {
+        height: 110px;
+    }
+
+    @media (min-width: $screen-md) {
+        height: 110px;
+    }
+
+    @media (min-width: $screen-lg) {
+        height: 130px;
+    }
+}
+
+.description{
+    font-size: 12px;
+
+    @media (min-width: $screen-sm) {
+        font-size: 1vw;
+    }
+}

@@ -1,0 +1,17 @@
+$primary-color: #F68C29;
+$danger-color: #b91c1c;
+$container-padding: 0 6%;
+$footer-container-padding: 0 0 0 10%;
+$screen-sm: 640px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+// $screen-xl: 1280px;
+$screen-xl: 1366px;
+$screen-2xl: 1536px;
+$screen-3xl: 1920px;
+
+:export {
+    primaryColor: $primary-color;
+    primaryColor: $danger-color;
+
+}

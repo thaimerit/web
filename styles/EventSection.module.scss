@@ -1,0 +1,159 @@
+@import "./variables.module";
+
+.eventCard{
+    width: 100%;
+    margin-right: 2%;
+    background-color: #ccc;
+    height: 58.5vw;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // @media (min-width: $screen-sm) {
+    //     width: 84.375vw;
+    //     height: 50.625vw;
+    // }
+
+    // @media (min-width: $screen-md) {
+    //     width: 70.313vw;
+    //     height: 42.188vw;
+    // }
+
+    // @media (min-width: $screen-lg) {
+    //     width: 52.735vw;
+    //     height: 31.641vw;
+    // }
+
+    // @media (min-width: $screen-xl) {
+    //     width: 39.532vw;
+    //     height: 23.719vw;
+    // }
+
+    // @media (min-width: $screen-2xl) {
+    //     width: 35.1565vw;
+    //     height: 21.094vw;
+    // }
+
+    // @media (min-width: $screen-3xl) {
+    //     width: 28.125vw;
+    //     height: 16.875vw;
+    // }
+}
+
+.slider{
+    // padding: 0 6%;
+    overflow-x: hidden;
+}
+
+.cardBg{
+    padding: 2%;
+    width: 100%;
+}
+
+.textOveray{
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 2%;
+    width: 100%;
+
+    @media (min-width: $screen-md) {
+        width: 100%;
+    }
+}
+
+.cardSubTitle {
+    color: $primary-color;
+    font-size: 11px;
+
+    @media (min-width: $screen-md) {
+        // font-size: 12px;
+        font-size: 1vw;
+    }
+}
+
+.cardTitle {
+    font-size: 12px;
+    // white-space: normal;
+
+    @media (min-width: $screen-md) {
+        
+        font-size: 1.5vw;
+    }
+}
+
+.cardDetail{
+    white-space: initial;
+    overflow: hidden;
+    padding-left: 2%;
+}
+
+.thumbnail{
+    max-width: auto;
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    object-fit: cover;
+
+    @media (min-width: $screen-md) {
+        width: 6vw;
+        height: 6vw;
+    }
+}
+
+.animation{
+    transition: transform 600ms ease;
+}
+
+.eventImage{
+    background-color: #999;
+
+}
+.fontOverLay{
+    font-size: 4vw;
+}
+
+.coverTitle {
+    // font-size: ;
+    font-size: 4vw;
+    text-shadow: #000 1px 0 4px;
+
+    @media (min-width: $screen-sm) {
+        font-size: 3.5vw;
+    }
+
+    @media (min-width: $screen-md) {
+        font-size: 3vw;
+    }
+
+    @media (min-width: $screen-lg) {
+        font-size: 3vw;
+    }
+}
+
+.leftLine {
+    border-left: 3px solid #fff;
+    width: 3px;
+    height: auto;
+    box-shadow: #000 1px 0 4px;
+
+    @media (min-width: $screen-sm) {
+        border-left: 4px solid #fff;
+        width: 4px;
+        height: auto;
+        box-shadow: #000 1px 0 4px;
+    }
+
+    @media (min-width: $screen-md) {
+        border-left: 5px solid #fff;
+        width: 5px;
+        height: auto;
+        box-shadow: #000 1px 0 4px;
+    }
+
+    @media (min-width: $screen-lg) {
+        border-left: 6px solid #fff;
+        width: 6px;
+        height: auto;
+        box-shadow: #000 1px 0 4px;
+    }
+}

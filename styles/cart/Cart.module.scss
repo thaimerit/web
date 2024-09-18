@@ -1,0 +1,8 @@
+@import "../variables.module.scss";
+.box{
+    width: 350px;
+
+    @media (max-width: $screen-sm) {
+        width: 100%;
+    }
+}

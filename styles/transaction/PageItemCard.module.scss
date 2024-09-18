@@ -1,0 +1,17 @@
+@import "../variables.module.scss";
+
+.content {
+   
+}
+.image {
+    // height: 50vw;
+    object-fit: cover;
+    width: 100%;
+    background-color: #ccc;
+    height: 25vw;
+
+    // @media (min-width: $screen-md) {
+    //     height: 20vw;
+    // }
+}
+

@@ -1,0 +1,84 @@
+@import "./variables.module.scss";
+
+.popup {
+    background-image: linear-gradient(135deg, #FF912B, #EC3B4A);
+    width : 350px;
+    height: 400px;
+
+    @media (min-width: $screen-lg) {
+        width : 450px;
+        height: 500px;
+    }
+}
+
+.popupPromotion {
+    background-image: linear-gradient(135deg, #FF912B, #EC3B4A);
+    width : 310px;
+    height: 310px;
+    padding: 2px !important;
+
+    @media (min-width: $screen-lg) {
+        width : 450px;
+        height: 470px;
+        padding: 2px !important;
+    }
+}
+
+.popupFortune {
+    background-image: linear-gradient(135deg, #FF912B, #EC3B4A);
+    // background-image: url(../public/images/chinese_frame.png);
+    z-index: 1;
+    width : 310px;
+    height: 310px;
+    top: 0px;
+    @media (min-width: $screen-sm) {
+        width : 450px;
+        height: 450px;
+    }
+}
+
+.frameFortune {
+    // background-image: url(../public/images/chinese_frame.png);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width : 310px;
+    height : 310px;
+    z-index: 1;
+    @media (min-width: $screen-sm) {
+        width : 440px;
+        height: 440px;
+    }
+}
+
+.popupBirthDay {
+    background-image: linear-gradient(135deg, #FF912B, #EC3B4A);
+    width : 450px;
+    height: 500px;
+}
+
+.popupSwaiper {
+    background-image: linear-gradient(135deg, #FF912B, #EC3B4A);
+    width : 350px;
+    height: 550px;
+
+    @media (min-width: $screen-lg) {
+        width : 450px;
+        height: 500px;
+    }
+}
+
+.swaiperContent {
+    max-width: 400px;
+    height: 500px;
+
+    @media (min-width: $screen-lg) {
+        width : 450px;
+        height: 450px;
+    }
+}
+.image{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

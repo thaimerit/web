@@ -1,0 +1,36 @@
+@import "../variables.module.scss";
+
+.content {
+    height: 70vw;
+
+    @media (min-width: $screen-md) {
+        height: 40vw;
+    }
+
+    @media (min-width: $screen-lg) {
+        height: 25vw;
+    }
+}
+
+.image {
+    // height: 50vw;
+    object-fit: cover;
+    width: 100%;
+    background-color: #ccc;
+    height: 100%;
+
+    // @media (min-width: $screen-md) {
+    //     height: 20vw;
+    // }
+}
+
+.cardSubTitleLoading{
+    background-color: #ccc;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.cardTitleLoading{
+    background-color: #ccc;
+    height: 22px;
+    margin-bottom: 5px;
+}

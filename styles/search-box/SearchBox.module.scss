@@ -1,0 +1,109 @@
+@import "../variables.module.scss";
+
+.searchBox {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 0.5rem;
+    // display: none;
+
+    @media (min-width: $screen-sm) {}
+
+    @media (min-width: $screen-md) {
+
+        // width: 200px;
+    }
+
+    @media (min-width: $screen-lg) {
+        display: block;
+        position: relative;
+        width: 200px;
+    }
+
+    @media (min-width: $screen-xl) {
+        width: 300px;
+    }
+}
+
+.searchButtonMini {
+    position: relative;
+    background-color: #FFF;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #CCC;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 8px;
+    border-radius: 50% 50%;
+}
+
+.resultBoxBackdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9998;
+
+    @media (min-width: $screen-lg) {
+        display: none;
+    }
+}
+
+.resultBoxMiniWrapper {
+
+    position: fixed;
+    padding: 20px;
+
+    z-index: 9999;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.resultBoxWrapper {
+
+    // position: absolute;
+    // padding: 20px;
+    z-index: 9999;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+
+
+    @media (min-width: $screen-lg) {
+        position: absolute;
+        padding: 0px;
+        width: 500px;
+        // bottom: -70px;
+        right: 0px;
+        left: auto;
+        top: 60px;
+    }
+}
+
+.resultBox {
+
+    padding: 20px;
+
+}
+
+.resultBoxCloseBtn{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    border-radius: 50% 50%;
+}
+
+.resultBoxCloseBtnMini{
+    width: 40px;
+    height: 40px;
+    color: gray;
+    font-size: 20px;
+    border-radius: 50% 50%;
+}

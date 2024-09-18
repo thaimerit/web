@@ -1,0 +1,27 @@
+@import "../variables.module.scss";
+
+.textSubTitle {
+    color: $primary-color;
+    // font-size: 1.25vw;
+    font-size: 12px;
+
+    @media (min-width: $screen-md) {
+        font-size: 1.25vw;
+    }
+}
+
+.textTitle {
+    color: black;
+    // font-size: 1.5vw;
+    font-size: 15px;
+    font-weight: 500;
+
+    @media (min-width: $screen-md) {
+        font-size: 1.5vw;
+    }
+}
+
+.slideHeader {
+    margin-bottom: 1%;
+    padding: $container-padding;
+}

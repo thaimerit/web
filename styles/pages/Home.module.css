@@ -1,0 +1,10 @@
+.boxWrapper {
+    display: flex;
+    -webkit-transform: translate3d(10%, 0px, 0px);
+    -ms-transform: translate3d(10%, 0px, 0px);
+    transform: translate3d(10%, 0px, 0px);
+}
+.box {
+    width: 16.666667%;
+    padding: 2px;
+}

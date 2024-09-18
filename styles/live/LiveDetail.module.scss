@@ -1,0 +1,27 @@
+@import "../variables.module.scss";
+
+.sc-table {
+    .column{
+        color: #000;
+        padding: 15px !important;
+    }
+    .day-column{
+        background-color: #F68C29;
+        color: #fff;
+    }
+    td,th{
+        padding: 15px !important;
+    }
+}
+.image {
+    // height: 50vw;
+    object-fit: cover;
+    width: 100%;
+    background-color: #ccc;
+    height: 100%;
+
+    // @media (min-width: $screen-md) {
+    //     height: 20vw;
+    // }
+}
+

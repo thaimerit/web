@@ -1,0 +1,10 @@
+@import "./variables.module.scss";
+
+.text {
+    font-size: 14px;
+
+    @media (min-width: $screen-md) {
+        
+        font-size: 1.5vw;
+    }
+}

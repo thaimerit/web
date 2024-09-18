@@ -1,0 +1,32 @@
+@import "../variables.module.scss";
+.colorBox{
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50%;
+    margin: 14% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+    @media (min-width: $screen-md) {
+        width: 3.5vw;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+}
+
+.text {
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+
+    @media (min-width: $screen-md) {
+        
+        font-size: 1.1vw;
+    }
+}

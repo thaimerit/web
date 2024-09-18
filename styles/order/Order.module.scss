@@ -1,0 +1,70 @@
+@import "../variables.module.scss";
+
+.logo{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+
+    @media (min-width: $screen-sm) {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 100%;
+        height: auto;
+    }
+}
+.logoWrapper{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    position: relative;
+
+    @media (min-width: $screen-sm) {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+.upload{
+    width: 100%;
+}
+.upload:hover{
+    background-color: rgba(0,0,0,0.5);
+    span {
+        display: block;
+    }
+}
+.loginBoxWrapper{
+    min-height: 80vh;
+
+    @media (min-width: $screen-sm) {
+        min-height: 400px;
+    }
+}
+.loginBox{
+    width: 100%;
+    
+    @media (min-width: $screen-sm) {
+        width: 50vw;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 40vw;
+    }
+
+    @media (min-width: $screen-lg) {
+        width: 30vw;
+    }
+
+    @media (min-width: $screen-xl) {
+        width: 30vw;
+    }
+    
+}
